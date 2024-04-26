@@ -1,0 +1,30 @@
+h1{
+	color: #f02e22;
+	text-align: center;
+}
+.link {
+	width: 250px;
+	height: 170px;
+	border: 7px solid transparent;
+	display: block;
+	<!--background-image: url ("../img/Rome.jpg");-->
+	background-repeat: no-repeat;
+	padding: 5px;
+	color: rgb (115, 212, 24);
+	background-size: cover;
+	background-center: center;
+	display: flex;
+}
+.link > div {
+	padding: 5px;
+	background-color: rgb (67, 160, 176);
+	width: 100%;
+}
+.link:hover {
+	background-color: #d41717;
+}
+
+
+	
+
+	

@@ -1,0 +1,56 @@
+body, html {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	
+}
+header > .top-line {
+	height: 36px;
+	background-color: #494d4e;
+	color: #ffffff;
+}
+.container {
+	width: 1110px;
+	margin: 0 auto;
+	color: #333333;
+}
+.link {
+	border: 0;
+	background: none;
+	outline: none;
+}
+.link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+header > .top-line > .container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: stretch;
+}
+header > .top-line > .container > .button {
+	display: block;
+	height: 100%;
+	font-weight: 600;
+	padding: 5px 15px;
+}
+header > .main-menu {
+	border-bottom: 1px solid #7f7f89;
+	height: 83px;
+}
+main {
+	padding-top: 145px;
+}
+main > .top-line {
+	display: flex;
+	justify-content: space-between;
+}	
+main > .products {
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 15px; 
+}
+main > .products > .item {
+	width: 250px;
+	heightL 400px;
+	border: 1px solid #7f7f89;
+}

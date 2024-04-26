@@ -1,0 +1,44 @@
+body, html {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;	
+}
+.container {
+	width: 450px;
+	border-top: 0;
+	border-bottom: 0;
+	margin: 0 auto;
+}
+header {
+	background-color: #cccccc;
+	min-height: 70px;
+}
+section.menu .container {
+	min-height: 120px;
+	border-bottom: 1px solid #000000;
+}
+section.promotion .item {
+ 	border: 3px solid #2d269b;
+	height: 70px;
+	background-size: 60px auto;
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding-right: 100px;
+}
+section.products .items > div {
+	border: 3px solid #000000;
+	padding: 15px 5px 5px;
+}
+section.products {
+	padding-bottom: 15px;
+}
+section.products .items div .title {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+footer {
+	background-color: #999999;
+	color: #ffffff;
+	min-height: 120px;
+	padding: 0 15px; 
+	text-align: center;
+}

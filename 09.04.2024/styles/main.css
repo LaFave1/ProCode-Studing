@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.box {
+    width: 200px; /* px */
+    height: 100px;
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.px {
+    width: 200px;
+    background-color: salmon;
+}
+
+.rem {
+    width: 2rem;
+    background-color: crimson;
+}
+
+.em {
+    width: 2em;
+    background-color: LightSeaGreen;
+}
+
+.vw {
+    width: 50vw;
+    background-color: dodgerblue;
+}
+
+.vh {
+    height: 50vh;
+}
+
+.percentage {
+    width: 50%;
+    background-color: hotpink;
+}
+
+.fr {
+    width: 1fr;
+    background-color: lightcoral;
+}
